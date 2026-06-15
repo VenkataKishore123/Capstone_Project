@@ -1,0 +1,250 @@
+<html>
+<head>
+<title>TestNG:  GUI Elements Complete Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>GUI Elements Complete Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>34/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jun 15 11:27:03 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>59 seconds (59350 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.GUIAutomationTest.testSlider()'><b>testSlider</b><br>Test class: tests.GUIAutomationTest<br>Test method: Move slider element</td>
+<td></td>
+<td>0</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testNewTab()'><b>testNewTab</b><br>Test class: tests.GUIAutomationTest<br>Test method: Click button, switch to new tab, verify, and return</td>
+<td></td>
+<td>2</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testBrokenLinks()'><b>testBrokenLinks</b><br>Test class: tests.GUIAutomationTest<br>Test method: Scan and verify all broken links using HTTP requests</td>
+<td></td>
+<td>4</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testSortedListDropdown()'><b>testSortedListDropdown</b><br>Test class: tests.GUIAutomationTest<br>Test method: Select animal from sorted list dropdown</td>
+<td></td>
+<td>0</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testPromptAlert()'><b>testPromptAlert</b><br>Test class: tests.GUIAutomationTest<br>Test method: Handle prompt alert with text input</td>
+<td></td>
+<td>0</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testDatePicker1()'><b>testDatePicker1</b><br>Test class: tests.GUIAutomationTest<br>Test method: Set Date Picker 1 in mm/dd/yyyy format</td>
+<td></td>
+<td>1</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testDateRangePicker()'><b>testDateRangePicker</b><br>Test class: tests.GUIAutomationTest<br>Test method: Set date range from and to with submit</td>
+<td></td>
+<td>1</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testConfirmAlert()'><b>testConfirmAlert</b><br>Test class: tests.GUIAutomationTest<br>Test method: Handle confirmation alert</td>
+<td></td>
+<td>0</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testRadioButton()'><b>testRadioButton</b><br>Test class: tests.GUIAutomationTest<br>Test method: Select Male gender radio button</td>
+<td></td>
+<td>0</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testDoubleClick()'><b>testDoubleClick</b><br>Test class: tests.GUIAutomationTest<br>Test method: Double click to copy text between fields</td>
+<td></td>
+<td>0</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testPopupWindow()'><b>testPopupWindow</b><br>Test class: tests.GUIAutomationTest<br>Test method: Click button, switch to popup window, verify, and return</td>
+<td></td>
+<td>1</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testCheckboxes()'><b>testCheckboxes</b><br>Test class: tests.GUIAutomationTest<br>Test method: Select ALL checkboxes</td>
+<td></td>
+<td>1</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testDynamicButton()'><b>testDynamicButton</b><br>Test class: tests.GUIAutomationTest<br>Test method: Wait for dynamic button to be clickable and click it</td>
+<td></td>
+<td>0</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testLaptopLinks()'><b>testLaptopLinks</b><br>Test class: tests.GUIAutomationTest<br>Test method: Click all laptop links and verify navigation</td>
+<td></td>
+<td>10</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testPaginationTable()'><b>testPaginationTable</b><br>Test class: tests.GUIAutomationTest<br>Test method: Paginate through table to find and select an item</td>
+<td></td>
+<td>0</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testDatePicker2()'><b>testDatePicker2</b><br>Test class: tests.GUIAutomationTest<br>Test method: Set Date Picker 2 in dd/mm/yyyy format</td>
+<td></td>
+<td>0</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testShadowDOM()'><b>testShadowDOM</b><br>Test class: tests.GUIAutomationTest<br>Test method: Pierce Shadow DOM to interact with hidden elements</td>
+<td></td>
+<td>0</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testFormSections()'><b>testFormSections</b><br>Test class: tests.GUIAutomationTest<br>Test method: Fill and submit specific form sections using dynamic IDs</td>
+<td></td>
+<td>0</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testScrollingDropdownBoundaries()'><b>testScrollingDropdownBoundaries</b><br>Test class: tests.GUIAutomationTest<br>Test method: Test scrolling functionality using boundary values (First, Middle, Last)</td>
+<td></td>
+<td>2</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testTextFields()'><b>testTextFields</b><br>Test class: tests.GUIAutomationTest<br>Test method: Fill all text fields with multiple data sets<br>Parameters: Jane Smith, jane@test.com, 9123456789, 456 Oak Ave, Female, Canada, Green, Cat</td>
+<td></td>
+<td>1</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testColorsDropdown()'><b>testColorsDropdown</b><br>Test class: tests.GUIAutomationTest<br>Test method: Select color from dropdown</td>
+<td></td>
+<td>0</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testSimpleAlert()'><b>testSimpleAlert</b><br>Test class: tests.GUIAutomationTest<br>Test method: Handle simple alert</td>
+<td></td>
+<td>0</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testDynamicTable()'><b>testDynamicTable</b><br>Test class: tests.GUIAutomationTest<br>Test method: Match dynamic table cell data with displayed text</td>
+<td></td>
+<td>0</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testTextFields()'><b>testTextFields</b><br>Test class: tests.GUIAutomationTest<br>Test method: Fill all text fields with multiple data sets<br>Parameters: John Doe, john@test.com, 9876543210, 123 Main St, Male, India, Blue, Dog</td>
+<td></td>
+<td>1</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testDragAndDrop()'><b>testDragAndDrop</b><br>Test class: tests.GUIAutomationTest<br>Test method: Drag element and drop to target</td>
+<td></td>
+<td>1</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testStaticTable()'><b>testStaticTable</b><br>Test class: tests.GUIAutomationTest<br>Test method: Extract specific data from a static table</td>
+<td></td>
+<td>0</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testMobileLabels()'><b>testMobileLabels</b><br>Test class: tests.GUIAutomationTest<br>Test method: Verify static mobile label text is present</td>
+<td></td>
+<td>0</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testWikipediaSearch()'><b>testWikipediaSearch</b><br>Test class: tests.GUIAutomationTest<br>Test method: Search Wikipedia, click result, switch to new tab, and return</td>
+<td></td>
+<td>5</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testMouseHover()'><b>testMouseHover</b><br>Test class: tests.GUIAutomationTest<br>Test method: Hover over button and verify dropdown</td>
+<td></td>
+<td>0</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testCountryDropdown()'><b>testCountryDropdown</b><br>Test class: tests.GUIAutomationTest<br>Test method: Select country from dropdown</td>
+<td></td>
+<td>0</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testSingleFileUpload()'><b>testSingleFileUpload</b><br>Test class: tests.GUIAutomationTest<br>Test method: Upload single file</td>
+<td></td>
+<td>0</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testFooterLinks()'><b>testFooterLinks</b><br>Test class: tests.GUIAutomationTest<br>Test method: Click footer links and verify navigation</td>
+<td></td>
+<td>4</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testTextFields()'><b>testTextFields</b><br>Test class: tests.GUIAutomationTest<br>Test method: Fill all text fields with multiple data sets<br>Parameters: Ravi Kumar, ravi@test.com, 9001122334, 789 Pine Rd, Male, India, Red, Lion</td>
+<td></td>
+<td>0</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+<tr>
+<td title='tests.GUIAutomationTest.testMultipleFileUpload()'><b>testMultipleFileUpload</b><br>Test class: tests.GUIAutomationTest<br>Test method: Upload multiple files</td>
+<td></td>
+<td>0</td>
+<td>tests.GUIAutomationTest@15f47664</td></tr>
+</table><p>
+</body>
+</html>

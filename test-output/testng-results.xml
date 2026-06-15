@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="34" passed="34" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-15T11:27:03 IST" name="GUI Automation Suite - Level 3" finished-at="2026-06-15T11:28:03 IST" duration-ms="59350">
+    <groups>
+    </groups>
+    <test started-at="2026-06-15T11:27:03 IST" name="GUI Elements Complete Test" finished-at="2026-06-15T11:28:03 IST" duration-ms="59350">
+      <class name="tests.GUIAutomationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:03 IST" name="setUp" finished-at="2026-06-15T11:27:14 IST" duration-ms="10978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:14 IST" name="initPage" finished-at="2026-06-15T11:27:14 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="testTextFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:14 IST" name="testTextFields" description="Fill all text fields with multiple data sets" data-provider="formData" finished-at="2026-06-15T11:27:15 IST" duration-ms="1250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John Doe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[john@test.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123 Main St]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Blue]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Dog]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTextFields -->
+        <test-method signature="testTextFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:15 IST" name="testTextFields" description="Fill all text fields with multiple data sets" data-provider="formData" finished-at="2026-06-15T11:27:16 IST" duration-ms="1029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jane Smith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jane@test.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9123456789]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[456 Oak Ave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Green]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Cat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTextFields -->
+        <test-method signature="testTextFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:17 IST" name="testTextFields" description="Fill all text fields with multiple data sets" data-provider="formData" finished-at="2026-06-15T11:27:17 IST" duration-ms="973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ravi Kumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ravi@test.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9001122334]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[789 Pine Rd]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Red]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Lion]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTextFields -->
+        <test-method signature="testRadioButton()[pri:2, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:17 IST" name="testRadioButton" description="Select Male gender radio button" finished-at="2026-06-15T11:27:18 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRadioButton -->
+        <test-method signature="testCheckboxes()[pri:3, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:18 IST" name="testCheckboxes" description="Select ALL checkboxes" finished-at="2026-06-15T11:27:20 IST" duration-ms="1871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckboxes -->
+        <test-method signature="testCountryDropdown()[pri:4, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:20 IST" name="testCountryDropdown" description="Select country from dropdown" finished-at="2026-06-15T11:27:20 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCountryDropdown -->
+        <test-method signature="testColorsDropdown()[pri:5, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:20 IST" name="testColorsDropdown" description="Select color from dropdown" finished-at="2026-06-15T11:27:20 IST" duration-ms="422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testColorsDropdown -->
+        <test-method signature="testSortedListDropdown()[pri:6, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:20 IST" name="testSortedListDropdown" description="Select animal from sorted list dropdown" finished-at="2026-06-15T11:27:21 IST" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortedListDropdown -->
+        <test-method signature="testScrollingDropdownBoundaries()[pri:7, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:21 IST" name="testScrollingDropdownBoundaries" description="Test scrolling functionality using boundary values (First, Middle, Last)" finished-at="2026-06-15T11:27:23 IST" duration-ms="2201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScrollingDropdownBoundaries -->
+        <test-method signature="testDatePicker1()[pri:8, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:23 IST" name="testDatePicker1" description="Set Date Picker 1 in mm/dd/yyyy format" finished-at="2026-06-15T11:27:24 IST" duration-ms="1032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDatePicker1 -->
+        <test-method signature="testDatePicker2()[pri:9, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:24 IST" name="testDatePicker2" description="Set Date Picker 2 in dd/mm/yyyy format" finished-at="2026-06-15T11:27:24 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDatePicker2 -->
+        <test-method signature="testDateRangePicker()[pri:10, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:24 IST" name="testDateRangePicker" description="Set date range from and to with submit" finished-at="2026-06-15T11:27:25 IST" duration-ms="1103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDateRangePicker -->
+        <test-method signature="testSingleFileUpload()[pri:11, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:25 IST" name="testSingleFileUpload" description="Upload single file" finished-at="2026-06-15T11:27:25 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSingleFileUpload -->
+        <test-method signature="testMultipleFileUpload()[pri:12, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:25 IST" name="testMultipleFileUpload" description="Upload multiple files" finished-at="2026-06-15T11:27:25 IST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleFileUpload -->
+        <test-method signature="testWikipediaSearch()[pri:13, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:25 IST" name="testWikipediaSearch" description="Search Wikipedia, click result, switch to new tab, and return" finished-at="2026-06-15T11:27:30 IST" duration-ms="5017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWikipediaSearch -->
+        <test-method signature="testDynamicButton()[pri:14, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:30 IST" name="testDynamicButton" description="Wait for dynamic button to be clickable and click it" finished-at="2026-06-15T11:27:31 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDynamicButton -->
+        <test-method signature="testSlider()[pri:15, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:31 IST" name="testSlider" description="Move slider element" finished-at="2026-06-15T11:27:31 IST" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSlider -->
+        <test-method signature="testSimpleAlert()[pri:16, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:31 IST" name="testSimpleAlert" description="Handle simple alert" finished-at="2026-06-15T11:27:31 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimpleAlert -->
+        <test-method signature="testConfirmAlert()[pri:17, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:31 IST" name="testConfirmAlert" description="Handle confirmation alert" finished-at="2026-06-15T11:27:32 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConfirmAlert -->
+        <test-method signature="testPromptAlert()[pri:18, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:32 IST" name="testPromptAlert" description="Handle prompt alert with text input" finished-at="2026-06-15T11:27:32 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPromptAlert -->
+        <test-method signature="testNewTab()[pri:19, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:32 IST" name="testNewTab" description="Click button, switch to new tab, verify, and return" finished-at="2026-06-15T11:27:35 IST" duration-ms="2640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewTab -->
+        <test-method signature="testPopupWindow()[pri:20, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:35 IST" name="testPopupWindow" description="Click button, switch to popup window, verify, and return" finished-at="2026-06-15T11:27:36 IST" duration-ms="1594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPopupWindow -->
+        <test-method signature="testMouseHover()[pri:21, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:36 IST" name="testMouseHover" description="Hover over button and verify dropdown" finished-at="2026-06-15T11:27:36 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMouseHover -->
+        <test-method signature="testDoubleClick()[pri:22, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:36 IST" name="testDoubleClick" description="Double click to copy text between fields" finished-at="2026-06-15T11:27:37 IST" duration-ms="990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDoubleClick -->
+        <test-method signature="testDragAndDrop()[pri:23, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:37 IST" name="testDragAndDrop" description="Drag element and drop to target" finished-at="2026-06-15T11:27:39 IST" duration-ms="1031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDragAndDrop -->
+        <test-method signature="testMobileLabels()[pri:24, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:39 IST" name="testMobileLabels" description="Verify static mobile label text is present" finished-at="2026-06-15T11:27:39 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMobileLabels -->
+        <test-method signature="testLaptopLinks()[pri:25, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:39 IST" name="testLaptopLinks" description="Click all laptop links and verify navigation" finished-at="2026-06-15T11:27:49 IST" duration-ms="10600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLaptopLinks -->
+        <test-method signature="testBrokenLinks()[pri:26, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:49 IST" name="testBrokenLinks" description="Scan and verify all broken links using HTTP requests" finished-at="2026-06-15T11:27:54 IST" duration-ms="4493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBrokenLinks -->
+        <test-method signature="testStaticTable()[pri:27, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:54 IST" name="testStaticTable" description="Extract specific data from a static table" finished-at="2026-06-15T11:27:54 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStaticTable -->
+        <test-method signature="testDynamicTable()[pri:28, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:54 IST" name="testDynamicTable" description="Match dynamic table cell data with displayed text" finished-at="2026-06-15T11:27:54 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDynamicTable -->
+        <test-method signature="testPaginationTable()[pri:29, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:54 IST" name="testPaginationTable" description="Paginate through table to find and select an item" finished-at="2026-06-15T11:27:55 IST" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPaginationTable -->
+        <test-method signature="testFormSections()[pri:30, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:55 IST" name="testFormSections" description="Fill and submit specific form sections using dynamic IDs" finished-at="2026-06-15T11:27:55 IST" duration-ms="545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormSections -->
+        <test-method signature="testFooterLinks()[pri:31, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:27:55 IST" name="testFooterLinks" description="Click footer links and verify navigation" finished-at="2026-06-15T11:28:00 IST" duration-ms="4917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFooterLinks -->
+        <test-method signature="testShadowDOM()[pri:32, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:28:00 IST" name="testShadowDOM" description="Pierce Shadow DOM to interact with hidden elements" finished-at="2026-06-15T11:28:01 IST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShadowDOM -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.GUIAutomationTest@15f47664]" started-at="2026-06-15T11:28:01 IST" name="tearDown" finished-at="2026-06-15T11:28:03 IST" duration-ms="1862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.GUIAutomationTest -->
+    </test> <!-- GUI Elements Complete Test -->
+  </suite> <!-- GUI Automation Suite - Level 3 -->
+</testng-results>
